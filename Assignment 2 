@@ -1,0 +1,53 @@
+Python 3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)] on win32
+　　Enter "help" below or click "Help" above for more information.
+　　# To study Arithemetic Relational,and logical operator in python
+　　#assignment 2
+　　#1 WAP to add two number in python
+　　a=6
+　　>>> b=10
+　　>>> c=a+b
+　　>>> print(c)
+　　16
+　　>>> #2WAP to declare variables and display types of respective variables
+　　>>> o=20
+   >>> print(o,":",type(o))
+　　20 : <class 'int'>
+　　>>> p=3.6
+　　>>> print(p,":",type(p))
+　　3.6 : <class 'float'>
+　　>>> q='Hello Dell!'
+　　>>> print(q,":",type(q))
+　　Hello Dell! : <class 'str'>
+　　>>> r=True
+　　>>> print(r,":",type(r))
+　　True : <class 'bool'>
+　　>>> s=[]
+　　>>> print(s,":",type(s))
+　　[] : <class 'list'>
+　　>>> t=()
+　　>>> print(t,":",type(t))
+　　() : <class 'tuple'>
+　　>>> u={}
+　　>>> print(u,":",type(u))
+　　{} : <class 'dict'>
+　　>>> v=set()
+　　>>> print(v,":",type(v))
+   >>> print(v,":",type(v))
+　　set() : <class 'set'>
+　　>>> #3 WAP to demonstrate type casting in python
+　　>>> d=a/b
+　　>>> print("before type casting:")
+　　before type casting:
+　　>>> print(d)
+　　0.6
+　　>>> print("\n after type casting:")
+　　after type casting:
+　　>>> print(int(d))
+　　0
+　　>>> #4 WAP to demonstrate logical operators
+　　>>> e=True
+　　>>> f=False
+　　>>> g=e and f
+　　>>> print(g)
+　　False
+   
