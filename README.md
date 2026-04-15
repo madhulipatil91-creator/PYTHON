@@ -36,3 +36,9 @@ elif y.isalpha():
     print("input is acharacter")
 else:
     print("input is a combination of both numbers and character")
+output:
+8 is the greatest number
+8 is even number
+the letters are in both lower and upper case
+enter the input3
+input is number
