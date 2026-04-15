@@ -1,0 +1,56 @@
+#To study list access using membership operators
+#Assignment 6
+#1. WAP to create a list and demonstrate membership operators (in, not in) to check element presence
+a = ["madhu", 45, True, "2.36", 2.5]
+print(a)
+if "Happy" in a:
+    print("Happy is present in the list.")
+if 3.2 not in a:
+    print("3.2 is not present in the list.")
+
+#2. WAP to perform indexing, negative indexing, and sclicing operations on a given list
+b = [1,2,3,4,5,6]
+print(b)
+print(b[3])
+print(b[-3:])
+print(b[2:4])
+
+#3. WAP to update, append, insert, and delete elements from a list using built-in methods
+c = ["mango", "apple", "cherry"]
+print(c)
+c.append("banana")
+print(c)
+c.insert(2,"strawberry")
+print(c)
+del c[0]
+print(c)
+
+#4. WAP to demonstrate basic list operations like concatenation, repetition, length, maximum, and minimum functions
+f = ["madhu", 45, True, "2.36", 2.5]
+g = [1,2,3,4,5,6]
+print(f)
+print(g)
+print("Concatenation: ", f + g)
+print("Repetition of g: ", g*3)
+print("Length of f: ", len(f))
+print("Maximum in g: ", max(g))
+print("Minimum in g: ", min(g))
+the output:
+['madhu', 45, True, '2.36', 2.5]
+3.2 is not present in the list.
+[1, 2, 3, 4, 5, 6]
+4
+[4, 5, 6]
+[3, 4]
+['mango', 'apple', 'cherry']
+['mango', 'apple', 'cherry', 'banana']
+['mango', 'apple', 'strawberry', 'cherry', 'banana']
+['apple', 'strawberry', 'cherry', 'banana']
+['madhu', 45, True, '2.36', 2.5]
+[1, 2, 3, 4, 5, 6]
+Concatenation:  ['madhu', 45, True, '2.36', 2.5, 1, 2, 3, 4, 5, 6]
+Repetition of g:  [1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6]
+Length of f:  5
+Maximum in g:  6
+Minimum in g:  1
+
