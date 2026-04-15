@@ -1,0 +1,23 @@
+# to study built in function of string ang math packages
+#Assignment 5
+#1 WAP  to calculate length of string
+a=input("enter a string:")
+print("length of string is:",len(a))
+
+#2 WAP to make string from first two and last two character from given string
+b=input ("enter a string:")
+c=b[2:]
+d=b[-2:]
+e=c+d
+print(e)
+
+#3 WAP to concatenate two strings
+x="hello"
+y="dell!"
+print(x+y)
+the output:
+enter a string:python
+length of string is: 6
+enter a string:madhuli
+dhulili
+hellodell!
