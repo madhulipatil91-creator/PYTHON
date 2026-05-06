@@ -1,0 +1,52 @@
+#To study Set operations and Dictionary traversing
+#Assignment 8
+
+bike = {"brand": "bullet", "model": "RXD", "year": 1964, "colors": ["red", "white", "blue"]}
+print(bike)
+bike1 = dict(sorted(bike.items()))
+print(bike1)
+
+flower = {"jasmine" : 5, "rose" : 7, "hiibicus" : 2, "lily" : 8, "lotus" : 6}
+if "rose" in flower:
+    print("rose is present.")
+else:
+    print("rose is not present.")
+
+print("Dict 1: ", bike)
+print("Dict 2: ", flower)
+print("Combined dict: ",bike | flower)
+
+t = (1,2,4,5,6,7,8)
+print(t)
+l = list(t)
+l.append(78)
+t1 = tuple(l)
+print(t1)
+
+x = (2, 3.4, "five", False, [7,5])
+print(x)
+
+l = [2,6,9,3,0,3,7,4]
+print(l)
+print(sum(l))
+
+l = [2,6,9,3,0,3,7,4]
+print(l)
+print(max(l))
+
+s= set()
+s.add(1)
+s.add(786)
+s.add("SETS")
+s.add("Blue")
+print(s)
+
+m = ["apple", 6, 4.5, 90, "T", 876]
+print(m)
+n = m[::-1]
+print(n)
+
+b = [2,3,4,6,7]
+print("Array: ", b)
+for i in range(0,len(b)):
+    print("Element at index ", i, ": ", b[i])
